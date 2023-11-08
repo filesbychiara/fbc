@@ -1,0 +1,130 @@
+
+@media (width < 1238px) {
+    .sidebar {
+        display: none;
+    }
+    .container,
+    .work-container {
+        margin: 0 32px;
+    }
+
+    .work-container section:last-of-type{
+        height: auto;
+    }
+
+}
+
+@media (width < 1034px) {
+    header,
+    .container,
+    footer {
+        padding: 32px;
+    }
+}
+
+@media (min-width: 900px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+@media (max-width: 899px) {
+    .header-logo {
+        display: none;
+    }
+
+    .about,
+    .project-grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about img {
+        grid-area: 1/1/2/2;
+    }
+
+    .projects {
+        padding: 16px;
+        margin: 20px auto;
+    }
+
+    .user-persona-info {
+        padding: 16px 8px;
+    }
+
+    .user-persona img {
+        padding: 20px 24px;
+    }
+
+
+    footer h4,
+    footer h5,
+    footer a {
+        font-size: 16px;
+    }
+ 
+    .footer-links {
+        margin-left: 64px;
+    }
+}
+
+@media (max-width: 600px) {
+    header,
+    .container,
+    footer {
+        padding: 16px;
+    }
+
+    .container {
+        margin: 8px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+    
+    .work-container h1 {
+        text-align: center;
+    }
+
+    .hero {
+        padding: 50px 0;
+        width: 332px;
+        margin: 0;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .user-persona {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prototype-btn {
+        margin: 20px auto;
+        padding: 24px;
+    }
+
+    .footer-links {
+        margin-left: 32px;
+    }
+}
