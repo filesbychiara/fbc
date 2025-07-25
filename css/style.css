@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Syne:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Syne:wght@400..800&display=swap");
 :root {
   --primary: #2f2f3a;
   --secondary: #f7f5f4;
@@ -59,7 +59,7 @@ h6 {
 }
 p {
   font-size: 16px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -106,14 +106,12 @@ footer {
   margin-top: 48px;
 }
 
-
 footer p {
   font-size: 13.33px;
   font-weight: 600;
 }
 
 /* homepage */
-
 
 .hero-text {
   display: flex;
@@ -194,10 +192,9 @@ footer p {
   border-radius: 40px;
 }
 
-.selected-works-text p{
+.selected-works-text p {
   margin: 8px 0 32px;
 }
-
 
 .selected-works-cards a {
   border: 3px solid var(--accent2);
@@ -222,7 +219,6 @@ footer p {
   /* align-items: center; */
 }
 
-
 .work-cards {
   display: flex;
   flex-direction: row;
@@ -230,7 +226,7 @@ footer p {
   gap: 88px;
   align-items: center;
 }
-.work h2{
+.work h2 {
   margin: 32px 0 16px;
   text-align: center;
 }
@@ -260,3 +256,32 @@ footer p {
   text-decoration: none;
 }
 
+/* about */
+
+.about {
+  display: flex;
+  height: 80vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about-text {
+  display: block;
+  padding: 32px;
+}
+
+.about img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.about p,
+.about h6 {
+  margin: 24px 0;
+}
+
+.about b {
+  color: var(--accent2);
+}
